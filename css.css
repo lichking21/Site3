@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Khula', sans-serif;
+    font-family: 'Rokkitt', serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+h1, h2, h3, h4 {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+.header {
+    width: 100%;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+.header_logo {
+    font-family: 'Inconsolata';
+    font-size: 30px;
+    font-weight: normal;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+.header_navigation {
+    display: block;
+}
+.header_link {
+    font-family: 'Playfair Display';
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+
+    padding-left: 100px;
+}
+.header_img {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* DIARY */
+.photodiary {
+    margin-top: 100px;
+    width: 100%;
+}
+.diary_uptitle {
+    font-family: 'Inconsolata';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.diary_title {
+    padding-top: 30px;
+    color: #626262;
+    font-size: 30px;
+    font-family: 'Khula;
+}
+.diary_text {
+    padding-top: 40px;
+    color: #626262; 
+    font-family: 'Khula';
+    font-size: 14px;
+}
+.comment {
+    padding-top: 80px;
+}
+.comment a {
+    text-decoration: none;
+    color: #b4ad9e;
+    font-family: 'Inconsolata';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.photos {
+    display: flex;
+    width: 100%;
+    padding-bottom: 135px;
+}
+.photo_item:first-child {
+    padding-left: 0;
+}
+.photo_item:last-child {
+    
+}
+
+.photo_item {
+    flex: 1 1 0;
+    max-width: 415px;
+    width: 100%;
+    padding-left: 100px;
+}
+.item_img {
+    width: 100%;
+    max-height: 280px;
+    height: 100%;
+}
+.item_uptitle {
+    padding-top: 30px;
+    font-family: 'Inconsolata';
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.item_title {
+    padding-top: 30px;
+    color: #626262;
+    font-size: 30px;
+    font-family: 'Khula;
+}
+.item_text {
+    padding-top: 40px;
+    color: #626262; 
+    font-family: 'Khula';
+    font-size: 14px;
+    line-height: 1;
+}
+
+/* MIDDLE */
+.middle {
+    margin-top: 125px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 285px;
+
+    text-align: center;
+}
+.middle_title {
+    padding-top: 70px;
+
+    color: #626262;
+    font-family: 'Khula';
+    font-size: 30px;
+}
+.middle_sub {
+    padding-top: 80px;
+    padding-right: 200px;
+    font-family: 'Khula';
+    font-size: 14px;
+    font-weight: 100;
+    color: #626262;
+    
+    position: relative;
+}
+.middle_sub:after {
+    content: "";
+    background-color: black;
+    height: 1px;
+    width: 400px;
+
+    position: absolute;
+    top: 100%;
+    left: 33%;
+}
+.middle_icon {
+    position: relative;
+    top: 0;
+    left: 20%;
+    max-width: 30px;
+    width: 100%;
+}
+
+
+.lifstyle {
+    margin-top: 100px;
+}
+
+/* BOTTOM */
+.bottom {
+    margin-top: 125px;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.bot_text {
+    color: #626262;
+    font-family: 'Khula';
+    font-size: 14px;
+    
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
